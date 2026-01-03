@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="card">
+  <h2>Weather Search</h2>
+  <input id="city" placeholder="Enter city" />
+  <button onclick="getWeather()">Search</button>
+  <h2 id="cityName">---</h2>
+
+
+  <h1 id="temp">--°C</h1>
+
+  <h3>⏰ Next 24 Hours</h3>
+  <div id="hourly" class="hourly"></div>
+
+  <h3>📅 7 Day Forecast</h3>
+  <div id="daily" class="daily"></div>
+</div>
+</body>
+</html> 

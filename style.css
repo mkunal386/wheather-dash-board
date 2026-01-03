@@ -1,0 +1,69 @@
+body {
+      font-family: Arial;
+      background: #e3f2fd;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 600px;
+      box-sizing: border-box;
+    }
+
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      box-sizing: border-box;
+    }
+
+    h3 {
+      margin: 20px 0 10px;
+    }
+
+    /* FLEXBOX */
+    .hourly {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 5px;
+    }
+
+    .daily {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .hour-card {
+      background: #f1f8ff;
+      padding: 12px;
+      min-width: 90px;
+      border-radius: 10px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .day-card {
+      background: #f1f8ff;
+      padding: 12px;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1 1 calc(25% - 10px);
+      min-width: 120px;
+    }
+
+    .time, .day {
+      font-size: 13px;
+      color: #555;
+    }
+
+    .temp {
+      font-weight: bold;
+      margin-top: 6px;
+    }
